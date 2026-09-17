@@ -1,0 +1,77 @@
+{
+  "session_id": "5348424f-674a-4301-9875-f37975a85c97",
+  "created_at": "2026-09-17T11:48:04.192022",
+  "turns": [
+    {
+      "role": "user",
+      "content": "what science can do?",
+      "timestamp": "2026-09-17T11:48:06.895452",
+      "confidence": null,
+      "citations": [],
+      "retriever": null
+    },
+    {
+      "role": "assistant",
+      "content": "I do not have enough evidence in the retrieved sources to answer that.",
+      "timestamp": "2026-09-17T11:48:06.895517",
+      "confidence": "low",
+      "citations": [
+        {
+          "source_id": 1,
+          "company_name": "Aptevo Therapeutics Inc.",
+          "doc_id": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0981826b4b43a88920f3e01c71ae73539bab84cc/0981826b4b43a88920f3e01c71ae73539bab84cc.md",
+          "pages": "52",
+          "section_title": "Our employees, independent contractors, consultants, commercial partners, principal investigators, or CROs may engage in misconduct or other improper activities, including noncompliance with regulatory standards and requirements, which could have a material adverse ef ect on our business.",
+          "snippet": "depend, in large part, on our ability to obtain and maintain protection in the United States and other countries for the intellectual property covering or incorporated into our technology, products and product candidates. Obtaining and maintaining this protection is very costly. The patentability of technology in the biotechnology field generally i"
+        },
+        {
+          "source_id": 2,
+          "company_name": "Aptevo Therapeutics Inc.",
+          "doc_id": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0981826b4b43a88920f3e01c71ae73539bab84cc/0981826b4b43a88920f3e01c71ae73539bab84cc.md",
+          "pages": "31",
+          "section_title": "Our success is dependent on our continued ability to attract, motivate and retain key personnel, and any failure to attract or retain key personnel may negatively af ect our business.",
+          "snippet": "and key scientific and technical personnel. If we are unable to retain the services of one or more of the principal members of senior management, including our Chief Executive Officer, Marvin L. White, our Chief Operating Officer, Jeffrey G. Lamothe, our Chief Financial Officer, Daphne Taylor, our General Counsel, SoYoung Kwon, or other key employe"
+        },
+        {
+          "source_id": 3,
+          "company_name": "Aptevo Therapeutics Inc.",
+          "doc_id": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0981826b4b43a88920f3e01c71ae73539bab84cc/0981826b4b43a88920f3e01c71ae73539bab84cc.md",
+          "pages": "52",
+          "section_title": "Our employees, independent contractors, consultants, commercial partners, principal investigators, or CROs may engage in misconduct or other improper activities, including noncompliance with regulatory standards and requirements, which could have a material adverse ef ect on our business.",
+          "snippet": "case could result in exclusion from federal health programs or debarment from government contracts, whistleblower cases often result in large settlements. If any such actions are instituted against us, and we are not successful in defending ourselves or asserting our rights, those actions could have a significant impact on our business, financial c"
+        },
+        {
+          "source_id": 4,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "93",
+          "section_title": "Impact of climate change",
+          "snippet": "defined as the mitigation of direct emissions to as low a level as possible and offsetting the remainder through carbon removals. Downer has utilised the Science Based Target Initiative's threshold of a 90% reduction in its emissions as being 'as low a level as possible'. <sup>2</sup> NGFS Net Zero 2050 is an ambitious scenario that limits global w"
+        },
+        {
+          "source_id": 5,
+          "company_name": "Aptevo Therapeutics Inc.",
+          "doc_id": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0981826b4b43a88920f3e01c71ae73539bab84cc/0981826b4b43a88920f3e01c71ae73539bab84cc.md",
+          "pages": "47",
+          "section_title": "Generally, no product can receive FDA approval, marketing authorization from the European Commission or the competent authorities of the EU Member States, or approval from comparable regulatory agencies in foreign countries unless data generated in human clinical trials demonstrates both safety and ef icacy for each target indication in accordance with such authority's standards.",
+          "snippet": "to complete clinical trials and prepare for possible commercialization of our product candidates. We do not know whether any non-clinical tests or clinical trials above what we currently have planned will be required, will begin as planned, will need to be restructured, or will be completed on schedule, or at all. Significant delays relating to any"
+        },
+        {
+          "source_id": 6,
+          "company_name": "Aptevo Therapeutics Inc.",
+          "doc_id": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0981826b4b43a88920f3e01c71ae73539bab84cc/0981826b4b43a88920f3e01c71ae73539bab84cc.md",
+          "pages": "66",
+          "section_title": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations.",
+          "snippet": "### <span id=\"page-65-0\"></span>**Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations.** *You should read the following Management's Discussion and Analysis of Financial Condition and Results of Operations (this MD&A) together with the consolidated financial statements and the related notes thereto included"
+        }
+      ],
+      "retriever": "hybrid+reranker"
+    }
+  ]
+}

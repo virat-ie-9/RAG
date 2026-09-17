@@ -1,0 +1,77 @@
+{
+  "session_id": "2c421c4e-2eec-4d28-87cd-1cd0facdbe59",
+  "created_at": "2026-09-17T11:46:05.535134",
+  "turns": [
+    {
+      "role": "user",
+      "content": "Did Downer EDI Limited announce a share buyback plan?",
+      "timestamp": "2026-09-17T11:46:09.663934",
+      "confidence": null,
+      "citations": [],
+      "retriever": null
+    },
+    {
+      "role": "assistant",
+      "content": "False. The retrieved sources do not contain evidence of 'buyback' in the annual report.",
+      "timestamp": "2026-09-17T11:46:09.664024",
+      "confidence": "medium",
+      "citations": [
+        {
+          "source_id": 1,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "46",
+          "section_title": "8. Executive Equity Ownership",
+          "snippet": "#### **8. Executive Equity Ownership** #### **8.1 Ordinary shares** KMP equity holdings in fully paid ordinary shares and performance rights issued by Downer EDI Limited are as follows: | | Ordinary shares | | | Performance rights | | | |--------------|----------------------------------|-------------------|-----------------------------------|------"
+        },
+        {
+          "source_id": 2,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "46",
+          "section_title": "8. Executive Equity Ownership",
+          "snippet": "and options on issue at the time of new share issues, the quantity of unlapsed rights granted to executives under the 2019 plan was adjusted by the ASX Adjustment Factor of 0.9812 in respect of the bonus element of the accelerated non-renounceable entitlement offer made during the 2021 year. The following table shows the number of performance right"
+        },
+        {
+          "source_id": 3,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "110",
+          "section_title": "F2. Controlled entities – continued",
+          "snippet": "#### **F2. Controlled entities – continued** #### **Australia – continued** Downer EDI Engineering Pty Limited Downer EDI Limited Tax Deferred Employee Share Plan Downer EDI Mining Pty Ltd Downer EDI Mining-Minerals Exploration Pty Ltd Downer EDI Rail Pty Ltd Downer EDI Services Pty Ltd Downer EDI Works Pty Ltd Downer Energy Systems Pty Limited Dow"
+        },
+        {
+          "source_id": 4,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "22",
+          "section_title": "Outlook",
+          "snippet": "environmental performance across the organisation. The environmental management system is audited, both internally and externally, by independent third parties. Downer's ability to manage the impacts of its activities on the natural and built environment is fundamental to its long-term success. Downer is committed to helping its customers succeed b"
+        },
+        {
+          "source_id": 5,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "144",
+          "section_title": "Information for Investors",
+          "snippet": "# Information for Investors for the year ended 30 June 2022 #### **Downer shareholders** Downer had 26,221 ordinary shareholders as at 30 June 2022, of which 24,525 shareholders had a registered address in Australia. The largest shareholder, HSBC Custody Nominees (Australia) Limited, held 35.80% of the 675,425,623 fully paid ordinary shares issued "
+        },
+        {
+          "source_id": 6,
+          "company_name": "Downer EDI Limited",
+          "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+          "source_path": "EnterpriseRAG_2025_02_markdown/0a61a353b1ea9fd9b8f63b60239634ca3007d58f/0a61a353b1ea9fd9b8f63b60239634ca3007d58f.md",
+          "pages": "111",
+          "section_title": "Africa",
+          "snippet": "(v) Entity disposed during the financial year ended 30 June 2022. - (vi) Entity acquired during the financial year ended 30 June 2022. - (vii) Entity does not form part of the tax-consolidated group of which Downer EDI Limited is the head entity. - (viii) Entity amalgamated into Downer New Zealand Limited during the financial year ended 30 June 202"
+        }
+      ],
+      "retriever": "hybrid+reranker"
+    }
+  ]
+}

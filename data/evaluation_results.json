@@ -1,0 +1,46 @@
+{
+  "eval_set_size": 4,
+  "note": "Retrieval metrics use the company/document mentioned in questions.json as relevance labels; answer correctness is not claimed.",
+  "dense": {
+    "hit_rate@5": 1.0,
+    "mrr@5": 1.0
+  },
+  "bm25": {
+    "hit_rate@5": 1.0,
+    "mrr@5": 0.875
+  },
+  "hybrid": {
+    "hit_rate@5": 1.0,
+    "mrr@5": 1.0
+  },
+  "hybrid_reranker": {
+    "hit_rate@5": 1.0,
+    "mrr@5": 1.0
+  },
+  "sample_eval_items": [
+    {
+      "question": "Did Downer EDI Limited announce a share buyback plan in the annual report? If there is no mention, return False.",
+      "company_name": "Downer EDI Limited",
+      "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+      "kind": "boolean"
+    },
+    {
+      "question": "What is the total number of employees let go by Downer EDI Limited according to the annual report? If data is not available, return 'N/A'.",
+      "company_name": "Downer EDI Limited",
+      "doc_id": "0a61a353b1ea9fd9b8f63b60239634ca3007d58f",
+      "kind": "number"
+    },
+    {
+      "question": "Did ACRES Commercial Realty Corp. outline any new ESG initiatives in the annual report? If there is no mention, return False.",
+      "company_name": "ACRES Commercial Realty Corp.",
+      "doc_id": "0279901b645e568591ad95dac2c2bf939ef0c00d",
+      "kind": "boolean"
+    },
+    {
+      "question": "Did Aptevo Therapeutics Inc. mention any mergers or acquisitions in the annual report? If there is no mention, return False.",
+      "company_name": "Aptevo Therapeutics Inc.",
+      "doc_id": "0981826b4b43a88920f3e01c71ae73539bab84cc",
+      "kind": "boolean"
+    }
+  ]
+}
